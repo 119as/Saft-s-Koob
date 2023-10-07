@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="about-page">
+
+    <header>
+        <h2 class="logo">Safts KooB</h2>
+        <nav class="navigation">
+            <a href="front.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="books.html">Book Lists</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+    
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close-outline"></ion-icon>
+        </span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email" required id="email-input">
+                    <label for="email-input">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email" required id="email-input">
+                    <label for="email-input">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="heading">
+        <h1>About Us</h1>
+        <p>✨ Where words transform into adventures ✨</p>
+        
+    </div>
+    <div class="container">
+        <section class="about">
+            <div class="about-image">
+                <img src="Desktop/Sekolah/Homework/SWC2353 sem4/mephoto.png">
+            </div>
+            <div class="about-content">
+                <h2>Saft's KooB Creator</h2>
+                <p>I'm Anez Syuhada, the creator of Saft's KooB Website. I'm deeply passionate about literature's transformative magic. Through this platform, I share my love for books, offering reviews, recommendations, and discussions with a diverse team of enthusiasts. Our mission is to connect and celebrate the art of storytelling, fostering a vibrant community of book lovers. Whether you're a seasoned reader or just starting your literary journey, welcome to our corner of the literary world. Join us in this exciting reading adventure!</p>
+                <a href="" class="read-more">Read More</a>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <h3 class="chart-title">Chart Review</h3>
+        <div class="chart-item">
+            <p class="chart-label">Romance</p>
+            <div class="chart-bar">
+                <div class="chart-fill" style="width: 95%"></div>
+            </div>
+        </div>
+        <div class="chart-item">
+            <p class="chart-label">Fantasy</p>
+            <div class="chart-bar">
+                <div class="chart-fill" style="width: 80%"></div>
+            </div>
+        </div>
+        <div class="chart-item">
+            <p class="chart-label">Thriller</p>
+            <div class="chart-bar">
+                <div class="chart-fill" style="width: 50%"></div>
+            </div>
+        </div>
+        <div class="chart-item">
+            <p class="chart-label">Horror</p>
+            <div class="chart-bar">
+                <div class="chart-fill" style="width: 45%"></div>
+            </div>
+        </div>
+        
+        <div class="stats-container">
+            <div class="stats-item">
+                <h1 class="stats-number">980+</h1>
+                <p class="stats-title">ROMANCE</p>
+                <p class="stats-description">"I cannot breathe when you're not near"</p>
+            </div>
+            <div class="stats-item">
+                <h1 class="stats-number">750+</h1>
+                <p class="stats-title">FANTASY</p>
+                <p class="stats-description">Being delulu is the solulu</p>
+            </div>
+            <div class="stats-item">
+                <h1 class="stats-number">230+</h1>
+                <p class="stats-title">THRILLER</p>
+                <p class="stats-description">Heartbeat fast as though I was running</p>
+            </div>
+            <div class="stats-item">
+                <h1 class="stats-number">150+</h1>
+                <p class="stats-title">HORROR</p>
+                <p class="stats-description">Curling toes through the journey</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
